@@ -1,0 +1,62 @@
+h1{
+    margin-bottom: 60px;
+}
+
+.remove-fav {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #84837e;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.remove-fav:hover {
+    background-color: #b82121;
+}
+
+.weather-card-fav{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+    max-width: 370px;
+    margin-top: 20px;
+    text-align: left;
+    margin-top: 20px;
+    width: 360px;
+
+}
+
+.remove-favs{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    transition: background-color 0.3s ease;
+
+}
+
+.remove-favs:hover{
+    background-color: #b82121;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Margine tra le card */
+}
+
+li {
+    margin-bottom: 20px;
+}   
