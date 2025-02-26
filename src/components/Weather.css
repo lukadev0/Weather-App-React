@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #759abb;   
+}
+
+.app {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.Form form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ece760;
+    width: 90%;
+    max-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px; /* Aggiungi un margine inferiore per separare la form dalla card */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(20, 19, 19);
+}
+
+.bottoni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottoni button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+a {
+    color: #030303;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: x-large;
+    background-color: #f4f4f4;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+.weather-card {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px; /* Aggiungi un margine superiore per separare la card dalla form */
+}
+
+.weather-card .details {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.fav-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #84837e;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.fav-button:hover {
+    background-color: #09820b;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 70%;
+    margin-bottom: 20px;
+}
